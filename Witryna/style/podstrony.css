@@ -4,6 +4,7 @@
     display: flex;
     background-color: gray;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 body{
     display: flex;
@@ -89,7 +90,7 @@ justify-content: space-between;
       /* wygląd elementów - li - wszystkich dzieci elementu - ol */
       ol > li {
         float:left;
-        width:190px;
+        width:188px;
         margin-left:1px;
         background-color:#f9ca2f;
         height:2em;
@@ -134,6 +135,25 @@ justify-content: space-between;
       /* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
       ol > li > ul > li:hover > a {
         color:#09C;
+      }
+      .main{
+        padding: 3px;
+        display: flex;
+        flex-basis: 80%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+
+      }
+      article{
+      display: flex;
+      flex-basis: 60%;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      }
+      .aside{
+      display: flex;
+      flex-basis: 19%;
       }
       .footer{
           display: flex;
