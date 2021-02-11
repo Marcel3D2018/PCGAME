@@ -1,0 +1,142 @@
+.container {
+    margin:0;
+    padding:0;
+    display: flex;
+    background-color: gray;
+    flex-wrap: wrap;
+}
+body{
+    display: flex;
+    background-color: gray;
+    flex-wrap: wrap;
+}
+form input {flex: left; border: 0; margin: 0; background: none;}
+.core-nav__input, .core-nav__submit {font-family: calibri; letter-spacing: -1px; font-size: 1em; padding: 9.5px; color: gray; width: 125px;}
+/*ZAOKRĄGLENIA*/
+.core-nav__input {border-radius: 3px 0 0 3px;}
+.core-nav__submit {border-radius: 0 3px 3px 0;} 
+/*CIEŃ I USUWANIE OTOCZKI*/
+.core-nav__input {box-shadow: 0 0 10px silver inset; -moz-outline: none; -webkit-outline: none; -o-outline: none; outline: none; }
+.core-nav__submit {cursor: pointer;}
+/*GRADIENT*/
+.core-nav__input {
+background: #f2f2f2;
+background: -moz-linear-gradient(top, #f2f2f2 1%, #d6d6d6 100%);;
+background: -webkit-linear-gradient(top, #f2f2f2 1%,#d6d6d6 100%);
+background: -o-linear-gradient(top, #f2f2f2 1%,#d6d6d6 100%);
+background: -ms-linear-gradient(top, #f2f2f2 1%,#d6d6d6 100%);
+background: linear-gradient(to bottom, #f2f2f2 1%,#d6d6d6 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#d6d6d6',GradientType=0 );
+}
+/*CIEŃ TESKTU I GRADIENT*/
+.core-nav__submit {
+text-shadow: 0 0 1px white;
+background: #258dc8;
+background: -moz-linear-gradient(top, #258dc8 0%, #f9ca2f 0%, #ffea4f 0%, #f9ca2f 100%);
+background: -webkit-linear-gradient(top, #258dc8 0%,#f9ca2f 0%,#ffea4f 0%,#f9ca2f 100%);
+background: -o-linear-gradient(top, #258dc8 0%,#f9ca2f 0%,#ffea4f 0%,#f9ca2f 100%);
+background: -ms-linear-gradient(top, #258dc8 0%,#f9ca2f 0%,#ffea4f 0%,#f9ca2f 100%);
+background: linear-gradient(to bottom, #258dc8 0%,#f9ca2f 0%,#ffea4f 0%,#f9ca2f 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#f9ca2f',GradientType=0 );
+ 
+}
+/*CIEŃ TEKSTU I GRADIENT*/
+.core-nav__submit:hover {
+text-shadow: 0 0 1px black;
+color: white;
+background: #82b8ff;
+}
+.core-header__text{
+font-style: italic;
+text-shadow: #FFF 2px 2px 5px ;
+color:#f9ca2f;
+text-decoration: none;
+padding: 2px;
+}
+.core-header{
+    align-items: flex-start;
+    position: sticky;
+    display: flex;
+    text-shadow: 3px gray; 
+    align-items: center;
+    flex-basis: 100%;
+    font-size: smaller;
+}
+.core-nav {
+display: flex;
+flex-basis: 100%;
+justify-content: space-between;
+}
+     /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+      /* wygląd głównego elementu - ol */
+      ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        background-color:#f2f2f2;
+        font-size: 18px;
+        height: 2em;
+        line-height: 2em;
+        text-align:center;
+      }
+      /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+      ol a {
+        display:flex;
+        text-decoration:none;
+        color:#000;
+        padding:0 5px;
+      }
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      ol > li {
+        float:left;
+        width:190px;
+        margin-left:1px;
+        background-color:#f9ca2f;
+        height:2em;
+      }
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      ol > li:first-child {
+        margin-left:0;
+      }
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover {
+        background-color:#EEE;
+      }
+      /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > a {
+        color:#09C;
+      }
+      /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > ul {
+        display:block;
+      }
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU------------------------ */
+      /* wygląd głównych rozwijanych elementów - ul */
+      ol > li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+      /* wygląd elementu - li - w części rozwijanej */
+      ol > li > ul > li {
+        position:relative;
+        background-color:#EEE;
+      }
+      /* wygląd elementu - a - w części rozwijanej */
+      ol > li > ul > li > a {
+        border-top:1px solid #FFF;
+      }
+      /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      ol > li > ul > li:hover {
+        background-color:#DDD;
+      }
+      /* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+      ol > li > ul > li:hover > a {
+        color:#09C;
+      }
+      .footer{
+          display: flex;
+          flex-basis: 100%;
+          justify-content: center;
+      }
