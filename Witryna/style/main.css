@@ -151,8 +151,12 @@ justify-content: space-between;
         font-style: italic;
         text-shadow: #f9ca2f 2px 2px 5px ;
         color:#fafafa;
+      }     
+      .article__photo{
+        width: 300px;
+        height: 300px;
       }
-      .main__header__test{
+      .main__header__text{
         display: flex;
         flex-wrap: wrap;
         flex-basis: 45%;
