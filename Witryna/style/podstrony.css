@@ -139,21 +139,28 @@ justify-content: space-between;
       .main{
         padding: 3px;
         display: flex;
-        flex-basis: 80%;
         flex-wrap: wrap;
-        justify-content: space-around;
-        flex-direction: row;
+        flex-basis: 70%;
+        justify-content: space-evenly;
+        border: #000 solid 1px;
 
       }
-      article{
+      .main_title{
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+      }
+      .main__article{
       display: flex;
-      flex-basis: 60%;
-      justify-content: space-around;
       flex-wrap: wrap;
+      }
+      .article__photo{
+        width: 300px;
+        height: 300px;
       }
       .aside{
       display: flex;
-      flex-basis: 19%;
+      flex-basis: 29%;
       }
       .footer{
           display: flex;
