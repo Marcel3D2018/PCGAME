@@ -155,7 +155,7 @@ justify-content: space-between;
       }
       .core-section__article{
         display: flex;
-        flex-basis: 120%;
+        flex-basis: 70%;
       }     
       .article__photo{
         width: 300px;
@@ -173,7 +173,7 @@ justify-content: space-between;
         align-content: center;
         text-shadow: #f9ca2f 2px 2px 5px ;
         color:#fafafa;
-        flex-basis: 150%;
+
       }
       .aside{
         display: flex;
