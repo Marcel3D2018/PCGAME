@@ -54,8 +54,8 @@ text-decoration: none;
 padding: 2px;
 }
 .core-header{
-    align-items: flex-start;
-    position: sticky;
+
+    
     display: flex;
     text-shadow: 3px gray; 
     align-items: center;
