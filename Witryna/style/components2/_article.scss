@@ -15,7 +15,12 @@
   border: #fff solid 3px;
   box-shadow: rgb(71, 70, 70) 0px 0px 5px 5px ;
   justify-content: center;
-}     
+} 
+&__link{
+  text-decoration: none;
+  text-shadow: #f9ca2f 2px 2px 5px ;
+  color: #fafafa;   
+}
 &__title{
   display: flex;
   flex-basis: 100%;

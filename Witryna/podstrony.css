@@ -259,6 +259,12 @@ body {
           justify-content: center;
 }
 
+.core-article__link {
+  text-decoration: none;
+  text-shadow: #f9ca2f 2px 2px 5px;
+  color: #fafafa;
+}
+
 .core-article__title {
   display: -webkit-box;
   display: -ms-flexbox;
