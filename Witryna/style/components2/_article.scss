@@ -1,0 +1,37 @@
+.core-article{
+  padding: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  text-shadow: #f9ca2f 2px 2px 5px ;
+  color:#fafafa;
+&__content{
+  margin: 10px;
+  display: flex;
+  flex-basis: 47%;
+  flex-wrap: wrap;
+  border-radius: 25px 25px 25px 25px;
+  border: #fff solid 3px;
+  box-shadow: rgb(71, 70, 70) 0px 0px 5px 5px ;
+  justify-content: center;
+}     
+&__title{
+  display: flex;
+  flex-basis: 100%;
+  font-size: x-large;
+  padding-left: 1em;
+}
+&__photo{
+  display: flex;
+  width: 350px;
+  height: 350px;
+  justify-content: center;
+}
+&__footer{
+  display: flex;
+  flex-basis: 100%;
+  font-size: x-large;
+  padding-left: 1em;
+}
+}

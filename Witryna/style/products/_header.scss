@@ -1,0 +1,16 @@
+.core-header{
+    align-items: flex-start;
+    position: sticky;
+    display: flex;
+    text-shadow: 3px gray; 
+    align-items: center;
+    flex-basis: 100%;
+    font-size: smaller;
+    &__text{
+      font-style: italic;
+      text-shadow: #FFF 2px 2px 5px ;
+      color:#f9ca2f;
+      text-decoration: none;
+      padding: 2px;
+      }
+  }

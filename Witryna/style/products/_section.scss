@@ -1,0 +1,34 @@
+.section{
+  border: #fff solid 3px;
+  box-shadow: rgb(71, 70, 70) 0px 0px 5px 8px ;
+  border-radius: 20px 20px 20px 20px;
+  display: flex;
+  flex-basis:  80%;
+  margin-left: 14em;
+  margin-top: 4em;
+  flex-wrap: wrap;
+&__item{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    
+}
+&__header{
+    display: flex;
+    flex-basis: 100%;
+}
+&__title{
+    font-size: xx-large;
+    display: flex;
+    text-shadow: #f9ca2f 2px 2px 5px ;
+    color:#fafafa;
+    margin: 1em;
+}
+&__content{
+    font-size: x-large;
+    display: flex;
+    flex-basis: 100%;
+    margin: 1em;
+    padding-bottom: 1em;
+}
+}

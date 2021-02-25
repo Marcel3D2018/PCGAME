@@ -1,0 +1,21 @@
+.aside{
+    flex-direction: column;
+    display: flex;
+    flex-basis:  19%;
+    border: solid white 4px;
+    box-shadow: #f9ca2f 0px 0px 3px 3px;
+    border-radius: 0px 15px 15px 0px;
+  &__header{
+    margin: 1px;
+    font-size: x-large;
+    display: flex;
+    flex-basis: 5%;
+    justify-content: space-around;
+    font-style: italic;
+    text-shadow: #f9ca2f 2px 2px 5px ;
+    color:#fafafa;
+  }
+  &__text{
+    display: flex;
+}
+}

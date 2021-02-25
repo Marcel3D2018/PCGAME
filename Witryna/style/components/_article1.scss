@@ -1,0 +1,36 @@
+.article{
+    text-shadow: #f9ca2f 2px 2px 5px ;
+    color:#fafafa;
+    display: flex;
+    flex-direction: column;
+
+  &__content{
+    margin: 10px;
+    display: flex;
+    flex-basis: 31%;
+    flex-wrap: wrap;
+    border: #fff solid 3px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: rgb(71, 70, 70) 0px 0px 5px 5px ;
+    justify-content: center;
+  }
+  &__title{
+    display: flex;
+    flex-basis: 100%;
+    padding-left: 1em;
+  }
+  &__photo{
+    display: flex;
+    width: 204px;
+    height: 204px;
+    justify-content: center;
+  }
+  &__footer{
+    display: flex;
+    flex-basis: 100%;
+    padding-left: 1em;
+  }
+  &__text{
+    display: flex;
+  }
+}
