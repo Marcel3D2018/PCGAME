@@ -1,6 +1,9 @@
 .article{
-    text-shadow: #f9ca2f 2px 2px 5px ;
-    color:#fafafa;
+  margin-left:  1em;
+  margin-right: 1em;
+  font-family: sans-serif;
+  text-shadow: #000000 3px 3px 10px ;
+  color:#fafafa;
     display: flex;
     flex-direction: column;
 
@@ -9,7 +12,6 @@
     display: flex;
     flex-basis: 31%;
     flex-wrap: wrap;
-    border: #fff solid 3px;
     border-radius: 25px 25px 25px 25px;
     box-shadow: rgb(71, 70, 70) 0px 0px 5px 5px ;
     justify-content: center;
@@ -18,6 +20,14 @@
     display: flex;
     flex-basis: 100%;
     padding-left: 1em;
+  }
+  &__link{
+    display: flex;
+    flex-basis: 100%;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-shadow: #000000 3px 3px 10px ;
+    color:#fafafa;
   }
   &__photo{
     display: flex;

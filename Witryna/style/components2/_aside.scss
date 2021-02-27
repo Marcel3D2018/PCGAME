@@ -2,8 +2,7 @@
     flex-direction: column;
     display: flex;
     flex-basis:  19%;
-    border: solid white 4px;
-    box-shadow: #f9ca2f 0px 0px 3px 3px;
+    box-shadow: #c5c3c3 0px 0px 6px 6px;
     border-radius: 0px 15px 15px 0px;
   &__header{
     margin: 1px;
@@ -12,7 +11,8 @@
     flex-basis: 5%;
     justify-content: space-around;
     font-style: italic;
-    text-shadow: #f9ca2f 2px 2px 5px ;
+    font-family: sans-serif;
+    text-shadow: #000000 3px 3px 10px ;
     color:#fafafa;
   }
   &__text{

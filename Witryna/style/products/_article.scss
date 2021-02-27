@@ -1,5 +1,6 @@
 .article{
     box-shadow: rgb(78, 78, 78) 0px 0px 30px 10px ;
+    border-radius: 25px 25px 25px 25px;
     display: flex;
     margin-top: 3em;
     flex-basis: 30%;
@@ -11,13 +12,15 @@
     }
     &__title{
         display: flex;
-        text-shadow: #f9ca2f 2px 2px 5px ;
-        color:#fafafa;
+        font-family: sans-serif;
+        text-shadow: #000000 2px 2px 7px ;
+        color:#ffffff;
         font-size: x-large;
     }
     &__section{
-        text-shadow: #f9ca2f 2px 2px 5px ;
-        color:#fafafa;
+        font-family: sans-serif;
+        text-shadow: #000000 2px 2px 7px ;
+        color:#ffffff;
         display: flex;
         flex-basis: 100%;
         font-size: x-large;

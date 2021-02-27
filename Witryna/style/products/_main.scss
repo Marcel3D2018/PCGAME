@@ -27,8 +27,9 @@
   padding: 0;
   margin: 0;
   display: flex;
-  flex-basis: 70%;
-  text-shadow: #f9ca2f 2px 2px 5px ;
+  flex-basis: 100%;
+  font-family: sans-serif;
+  text-shadow: #000000 3px 3px 10px ;
   color:#fafafa;
   font-size: x-large;
 }
@@ -36,29 +37,30 @@
   padding: 0;
   margin: 0;
   display: flex;
-  flex-basis: 70%;
+  color:#fafafa;
+  flex-basis: 100%;
 }
 &__content{
+  margin-right: 1em;
   font-size: larger;
-  text-shadow: #f9ca2f 2px 2px 5px ;
+font-family: sans-serif;
   color:#fafafa;
   flex-direction: column;
   display: flex;
-  flex-basis: 10%;
-
 }
 &__text{
   display: flex;
-  flex-basis: 50%;
 }
 &__link{
+  scroll-behavior: smooth;
   text-decoration: none;
 }
 &__footer{
   font-size: larger;
   display: flex;
   flex-basis: 100%;
-  text-shadow: #f9ca2f 2px 2px 5px ;
+  font-family: sans-serif;
   color:#fafafa;
+  text-decoration: underline;
 }
 }

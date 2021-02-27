@@ -20,15 +20,34 @@
 &__title{
     font-size: xx-large;
     display: flex;
-    text-shadow: #f9ca2f 2px 2px 5px ;
+    text-shadow: #000000 5px 5px 8px ;
     color:#fafafa;
     margin: 1em;
 }
 &__content{
+    color: white;
+    font-family: sans-serif;
     font-size: x-large;
     display: flex;
     flex-basis: 100%;
     margin: 1em;
     padding-bottom: 1em;
+}
+&__photo{
+    margin-left: 3.5em;
+    width: 1400px;
+    height: 700px;
+    border-radius: 25px 25px 25px 25px;
+    margin-bottom: 1em;
+}
+&__photo--smaller{   
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 30em;
+}
+&__photo--bigger{
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 20em;
+    width: 900px;
+    height: 1000px;
 }
 }

@@ -1,7 +1,6 @@
 .main{
     display: flex;
-    border: solid white 4px;
-    box-shadow: #f9ca2f 0px 0px 3px 3px;
+    box-shadow: #c5c3c3 0px 0px 6px 5px;
     border-radius: 15px 0px 0px 15px;
     flex-basis:  80%;
     flex-wrap: wrap;
@@ -11,7 +10,8 @@
     align-content: center;
     justify-content: center;
     font-style: italic;
-    text-shadow: #f9ca2f 2px 2px 5px ;
+    font-family: sans-serif;
+    text-shadow: #000000 3px 3px 10px ;
     color:#fafafa;
   }
    &__text{

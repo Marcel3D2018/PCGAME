@@ -9,14 +9,16 @@
     font-size: x-large;
     display: flex;
     font-style: italic;
-    text-shadow: #f9ca2f 2px 2px 5px ;
-    color:#fafafa;
+    font-family: sans-serif;
+    text-shadow: #000000 3px 3px 10px ;
+    color:#fafafa;;
   }
   &__text{
     display: flex;
 }
 &__section{
-  text-shadow: #f9ca2f 2px 2px 5px ;
+  font-family: sans-serif;
+  text-shadow: #000000 3px 3px 10px ;
   color:#fafafa;
   display: flex;
   flex-direction: row;
@@ -35,13 +37,21 @@
 &__title{
   display: flex;
   flex-basis: 100%;
-  padding-left: 1em;
+  margin-left: 1em;
+  justify-content: flex-start;
+}
+&__link{
+  display: flex;
+  flex-basis: 100%;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-shadow: #000000 3px 3px 10px ;
+  color:#fafafa;  
 }
 &__photo{
   display: flex;
-  width: 150px;
-  height: 120px;
-  justify-content: center;
+  width: 180px;
+  height: 140px;
 }
 &__footer{
   display: flex;
@@ -50,5 +60,6 @@
 }
 &__subtext{
   display: flex;
+  flex-basis: 100%;
 }
 }
