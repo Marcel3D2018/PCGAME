@@ -392,6 +392,9 @@ body {
 }
 
 .section__item {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -399,6 +402,7 @@ body {
       flex-basis: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 2em;
 }
 
 .section__header {
@@ -433,23 +437,7 @@ body {
 }
 
 .section__photo {
-  margin-left: 3.5em;
-  width: 1400px;
-  height: 700px;
   border-radius: 25px 25px 25px 25px;
-  margin-bottom: 1em;
-}
-
-.section__photo--smaller {
-  border-radius: 25px 25px 25px 25px;
-  margin-left: 30em;
-}
-
-.section__photo--bigger {
-  border-radius: 25px 25px 25px 25px;
-  margin-left: 20em;
-  width: 900px;
-  height: 1000px;
 }
 
 .table {
