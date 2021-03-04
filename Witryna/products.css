@@ -349,10 +349,10 @@ body {
 }
 
 .article__button {
+  border: none;
   font-size: larger;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
+  text-decoration: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -362,6 +362,7 @@ body {
   margin-top: 1em;
   margin-right: 1em;
   text-decoration: none;
+  cursor: pointer;
   width: 150px;
   height: 50px;
   border-radius: 15px 15px 15px 15px;
