@@ -1,60 +1,60 @@
 .menu {
-    list-style-type:none;
-    padding:0;
-    margin:0;
-    background-color:#f2f2f2;
-    font-size: 18px;
-    height: 2em;
-    line-height: 2em;
-    text-align:center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
   &__link {
-    transition: .5s;
-    display:flex;
-    text-decoration:none;
-    color:#000;
-    padding:0 5px;
+    transition: 0.5s;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    padding: 0 5px;
   }
   &__item {
     position: sticky;
-    float:left;
-    width:188px;
-    margin-left:1px;
-    background-color:#f9ca2f;
-    height:2em;
-    transition: .5s;
+    float: left;
+    width: 188px;
+    margin-left: 1px;
+    background-color: #f9ca2f;
+    height: 2em;
+    transition: 0.5s;
   }
   &__item:first-child {
-    margin-left:0;
+    margin-left: 0;
   }
   &__item:hover {
-    background-color:#EEE;
+    background-color: #eee;
   }
   &__item:hover {
-    color:#09C;
+    color: #09c;
   }
-  &__item:hover >&__submenu{
-    display:block;
+  &__item:hover > &__submenu {
+    display: block;
   }
   &__submenu {
-    transition: .5s;
-    display:none;
-    list-style-type:none;
-    padding:0;
-    margin:0;
+    transition: 0.5s;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
   &__sub-item {
-    transition: .5s;
-    position:relative;
-    background-color:#EEE;
+    transition: 0.5s;
+    position: relative;
+    background-color: #eee;
   }
   &__link {
-    transition: .5s;
-    border-top:1px solid #FFF;
+    transition: 0.5s;
+    border-top: 1px solid #fff;
   }
   &__sub-item:hover {
-    background-color:rgb(214, 213, 213);
+    background-color: rgb(214, 213, 213);
   }
   &__link:hover {
-    color:#09C;
+    color: #09c;
   }
 }

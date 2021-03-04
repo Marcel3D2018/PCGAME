@@ -1,66 +1,65 @@
-.main{
+.main {
   display: flex;
-  flex-basis:  90%;
+  flex-basis: 90%;
 
-&__section{
-  display: flex;
-}
-&__photo{ 
-  margin-left: 10em;
-  display: flex;
-  width: 600px;
-  height: 600px;
-
-}
-&__article{
-  display: flex;
-  flex-basis: 50%;
-  flex-direction: column;
-}
-&__header{
-  margin-top: 3em;
-  display: flex;
-  flex-basis: 20%;
-  flex-wrap: wrap;
-}
-&__title{
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-basis: 100%;
-  font-family: sans-serif;
-  text-shadow: #000000 3px 3px 10px ;
-  color:#fafafa;
-  font-size: x-large;
-}
-&__subtitle{
-  padding: 0;
-  margin: 0;
-  display: flex;
-  color:#fafafa;
-  flex-basis: 100%;
-}
-&__content{
-  margin-right: 1em;
-  font-size: larger;
-font-family: sans-serif;
-  color:#fafafa;
-  flex-direction: column;
-  display: flex;
-}
-&__text{
-  display: flex;
-}
-&__link{
-  scroll-behavior: smooth;
-  text-decoration: none;
-}
-&__footer{
-  font-size: larger;
-  display: flex;
-  flex-basis: 100%;
-  font-family: sans-serif;
-  color:#fafafa;
-  text-decoration: underline;
-}
+  &__section {
+    display: flex;
+  }
+  &__photo {
+    margin-left: 10em;
+    display: flex;
+    width: 600px;
+    height: 600px;
+  }
+  &__article {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+  }
+  &__header {
+    margin-top: 3em;
+    display: flex;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+  }
+  &__title {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-basis: 100%;
+    font-family: sans-serif;
+    text-shadow: #000000 3px 3px 10px;
+    color: #fafafa;
+    font-size: x-large;
+  }
+  &__subtitle {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: #fafafa;
+    flex-basis: 100%;
+  }
+  &__content {
+    margin-right: 1em;
+    font-size: larger;
+    font-family: sans-serif;
+    color: #fafafa;
+    flex-direction: column;
+    display: flex;
+  }
+  &__text {
+    display: flex;
+  }
+  &__link {
+    scroll-behavior: smooth;
+    text-decoration: none;
+  }
+  &__footer {
+    font-size: larger;
+    display: flex;
+    flex-basis: 100%;
+    font-family: sans-serif;
+    color: #fafafa;
+    text-decoration: underline;
+  }
 }

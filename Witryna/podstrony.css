@@ -145,8 +145,8 @@ body {
 }
 
 .menu__link {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -163,8 +163,8 @@ body {
   margin-left: 1px;
   background-color: #f9ca2f;
   height: 2em;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .menu__item:first-child {
@@ -172,11 +172,11 @@ body {
 }
 
 .menu__item:hover {
-  background-color: #EEE;
+  background-color: #eee;
 }
 
 .menu__item:hover {
-  color: #09C;
+  color: #09c;
 }
 
 .menu__item:hover > .menu__submenu {
@@ -184,8 +184,8 @@ body {
 }
 
 .menu__submenu {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   display: none;
   list-style-type: none;
   padding: 0;
@@ -193,16 +193,16 @@ body {
 }
 
 .menu__sub-item {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   position: relative;
-  background-color: #EEE;
+  background-color: #eee;
 }
 
 .menu__link {
-  -webkit-transition: .5s;
-  transition: .5s;
-  border-top: 1px solid #FFF;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-top: 1px solid #fff;
 }
 
 .menu__sub-item:hover {
@@ -210,7 +210,7 @@ body {
 }
 
 .menu__link:hover {
-  color: #09C;
+  color: #09c;
 }
 
 .main {

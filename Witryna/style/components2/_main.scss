@@ -1,23 +1,23 @@
-.main{
+.main {
   display: flex;
   box-shadow: #c5c3c3 0px 0px 6px 5px;
   border-radius: 15px 0px 0px 15px;
-  flex-basis:  80%;
+  flex-basis: 80%;
   flex-wrap: wrap;
-&__header{
-  display: flex;
-  flex-basis: 100%;
-  align-content: center;
-  justify-content: center;
-  font-style: italic;
-  font-family: sans-serif;
-  text-shadow: #000000 3px 3px 10px ;
-  color:#fafafa;
-}
-&__text{
-  display: flex;
-  flex-grow: 1;
-  font-size: xx-large;
-  justify-content: center;
-}
+  &__header {
+    display: flex;
+    flex-basis: 100%;
+    align-content: center;
+    justify-content: center;
+    font-style: italic;
+    font-family: sans-serif;
+    text-shadow: #000000 3px 3px 10px;
+    color: #fafafa;
+  }
+  &__text {
+    display: flex;
+    flex-grow: 1;
+    font-size: xx-large;
+    justify-content: center;
+  }
 }

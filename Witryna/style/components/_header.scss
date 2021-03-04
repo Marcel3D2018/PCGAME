@@ -1,23 +1,25 @@
-.core-header{
+.core-header {
   margin: 0;
-    align-items: flex-start;
-    position: sticky;
-    display: flex;
-    text-shadow: 3px gray; 
-    align-items: center;
-    flex-basis: 100%;
-    font-size: smaller;
-    &__text{
-      font-style: italic;
-      color:#f9ca2f;
-      text-decoration: none;
-      padding: 2px;
-      }
+  align-items: flex-start;
+  position: sticky;
+  display: flex;
+  text-shadow: 3px gray;
+  align-items: center;
+  flex-basis: 100%;
+  font-size: smaller;
+  &__text {
+    font-style: italic;
+    color: #f9ca2f;
+    text-decoration: none;
+    padding: 2px;
   }
-  #myDIV {
-    animation: mymove 2s infinite;
+}
+#myDIV {
+  animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  25% {
+    text-shadow: 2px 2px 6px rgb(255, 255, 255);
   }
-  
-  @keyframes mymove {
-    25% {text-shadow: 2px 2px 6px rgb(255, 255, 255);}
-  }
+}

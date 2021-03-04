@@ -1,23 +1,22 @@
-.table{
+.table {
+  display: flex;
+  flex-basis: 100%;
+  margin: 5em;
+  justify-content: center;
+  &__item {
     display: flex;
-    flex-basis: 100%;
-    margin: 5em;
-    justify-content: center;
-    &__item{
-        display: flex;
-    }
-    &__text{
-
-        border: #fafafa solid 1px;
-        box-shadow:  rgb(71, 70, 70) 0px 0px 5px 5px ;
-        width: 500px;
-    }
-    &__content{
-        font-size: small;
-        font-family: sans-serif;
-        color: white;
-        display: flex;
-        margin-left: 1em;
-        align-items: center;
-    }
+  }
+  &__text {
+    border: #fafafa solid 1px;
+    box-shadow: rgb(71, 70, 70) 0px 0px 5px 5px;
+    width: 500px;
+  }
+  &__content {
+    font-size: small;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    margin-left: 1em;
+    align-items: center;
+  }
 }
