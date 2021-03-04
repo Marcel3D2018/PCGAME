@@ -7,9 +7,29 @@
   flex-direction: column;
   &__header {
     display: flex;
-    margin-left: 13em;
     flex-basis: 100%;
+    margin: 1em;
+    justify-content: space-between;
   }
+  &__button {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px 15px 15px 15px;
+    transition: 0.2s;
+    background-color: #f9ca2f;
+  }
+  &__button:hover {
+    color: #09c;
+    background-color: rgb(214, 213, 213);
+  }
+
   &__title {
     display: flex;
     font-family: sans-serif;

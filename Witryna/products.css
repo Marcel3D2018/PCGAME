@@ -340,9 +340,39 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 13em;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+  margin: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.article__button {
+  font-size: larger;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1em;
+  margin-right: 1em;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px 15px 15px 15px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: #f9ca2f;
+}
+
+.article__button:hover {
+  color: #09c;
+  background-color: #d6d5d5;
 }
 
 .article__title {
