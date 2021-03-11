@@ -113,9 +113,6 @@ body {
   color: #f9ca2f;
   text-decoration: none;
   padding: 2px;
-}
-
-#myDIV {
   -webkit-animation: mymove 2s infinite;
           animation: mymove 2s infinite;
 }
@@ -374,6 +371,11 @@ body {
 .article__button:hover {
   color: #09c;
   background-color: #d6d5d5;
+}
+
+.article__button:focus {
+  border: none;
+  outline: none;
 }
 
 .article__title {

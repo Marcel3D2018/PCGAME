@@ -114,9 +114,6 @@ body {
   color: #f9ca2f;
   text-decoration: none;
   padding: 2px;
-}
-
-#myDIV {
   -webkit-animation: mymove 2s infinite;
           animation: mymove 2s infinite;
 }

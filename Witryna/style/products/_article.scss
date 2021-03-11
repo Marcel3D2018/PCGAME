@@ -27,10 +27,14 @@
     border-radius: 15px 15px 15px 15px;
     transition: 0.2s;
     background-color: #f9ca2f;
-  }
-  &__button:hover {
-    color: #09c;
-    background-color: rgb(214, 213, 213);
+    &:hover {
+      color: #09c;
+      background-color: rgb(214, 213, 213);
+    }
+    &:focus {
+      border: none;
+      outline: none;
+    }
   }
 
   &__title {
